@@ -1,2 +1,2 @@
-# leet-code-solutions
-my leet code solutions source codes
+# leetcode-solutions
+my leetcode solutions on data structure and algorithms topics.
