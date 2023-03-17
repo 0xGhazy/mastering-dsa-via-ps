@@ -7,7 +7,6 @@ class Solution:
         f_index = 0;
         l_index = len(s) - 1
         while(f_index < l_index):
-            # print("F", f_index, "Last", l_index)
             s[f_index], s[l_index] = s[l_index], s[f_index]
             f_index += 1
             l_index -= 1
