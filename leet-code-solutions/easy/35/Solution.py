@@ -15,5 +15,5 @@ class Solution:
                 return mid
         return low
             
-x = Solution()
-print(x.searchInsert([1,3,5,6], 2))
+# x = Solution()
+# print(x.searchInsert([1,3,5,6], 2))
