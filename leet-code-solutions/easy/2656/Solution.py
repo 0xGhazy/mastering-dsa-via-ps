@@ -1,5 +1,6 @@
+from typing import List
 class Solution:
-    def x(self, nums, k):
+    def maximizeSum(self, nums: List[int], k: int) -> int:
         nums = sorted(nums)
         max_score = 0
         for i in range(0, k):
@@ -8,11 +9,3 @@ class Solution:
             nums.append(num+1)
             max_score += num
         return max_score
-
-
-
-x = Solution()
-nums = [1, 2, 3, 4, 5]; k = 3
-print(x.x(nums, k))
-nums = [5, 5, 5]; k = 2
-print(x.x(nums, k))
