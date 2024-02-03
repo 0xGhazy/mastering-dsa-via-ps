@@ -1,5 +1,3 @@
-// URL: https://leetcode.com/problems/reverse-linked-list/
-
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -13,10 +11,9 @@
 
 class Solution {
     public ListNode reverseList(ListNode head) {
-        if(head==null){
+        if(head == null)
             return head;
-        }
-
+        
         ListNode previous = null;  
         ListNode current = head;
         ListNode next = null;
