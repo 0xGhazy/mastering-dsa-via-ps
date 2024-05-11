@@ -1,6 +1,7 @@
 # my ignore
 Playground/
 .idea/
+.vscode
 
 README.md
 1984
